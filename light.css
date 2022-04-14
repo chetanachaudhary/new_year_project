@@ -1,0 +1,109 @@
+.box{
+	border-radius:20px;
+	width:50%;
+	height:400px;
+	margin:50px auto;
+	background:linear-gradient(35deg,#ADD8E6,#A9A9A9);
+	position:relative;
+	top:16px;
+	right:200px;
+}
+.box .box2:hover{
+box-shadow: 0 0  #DFFF00 , 0 0 40px #DFFF00, 0 0 80px #DFFF00; 
+}
+@keyframes anime {
+	from{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+	to{
+		box-shadow: 0 0  #DFFF00 , 0 0 40px #DFFF00, 0 0 80px #DFFF00; 
+	}
+
+}
+nav{
+	font-size:40px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:250px;
+	right:250px;
+	
+	box-shadow: 25px 10px 0px 0px black ;
+	
+
+}
+nav:hover{
+	text-shadow: 0 0 #00FA9A,0 0 40px #00FA9A, 0 0 80px #00FA9A;
+}
+nav span:nth-child(1){
+	color: blue;
+	
+}
+nav span:nth-child(2){
+	color:purple;
+
+}
+nav span:nth-child(3){
+	color:#00ff7f;
+	
+}
+nav span:nth-child(4){
+	color:#ffd700;
+ 
+}
+nav span:nth-child(5){
+	color:#ff0000;
+	
+}
+
+.moon{
+	width:100px;
+	height: 100px;
+	background-color:white;
+	border-radius:50%;
+	box-shadow: 25px 10px 0px 0px black;
+	animation-name:animoon;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+}
+@keyframes animoon{
+	from{
+		
+		box-shadow: 25px 10px 0px 0px black ;
+	}
+	to{
+		
+		box-shadow: 0 0  #FFFAFA , 0 0 40px #FFFAFA, 0 0 80px #FFFAFA;
+	}
+}
+body{
+	background:url(pexels-cottonbro-3171762.jpg);
+	background-size: 1380px ;
+
+}
+h2{
+	position:absolute;
+	top:0px;
+	right:4px;
+	width:500px;
+	height:120px;
+	align-items: justify;
+	background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                   orange,
+                    red);
+color:  #fafad2;
+}
+.icons{
+	position:absolute;
+	top:150px;
+	right:4px;
+	width:500px;
+	height:120px;
+	
+}
+
